@@ -14,6 +14,11 @@ let num = 0;
 // while (num < 55);
 
 for (let i = 1; i < 8; i++) {
-    console.log(num);
-    num++;
+
+    if (i == 6) {
+        // break;
+        continue;
+    }
+
+    console.log(i);
 }
